@@ -1,0 +1,508 @@
+Place,Year,Race_Ethnicity,mortality
+"Boston, MA",2010,Asian/PI,51.5
+"Boston, MA",2010,Black,158.8
+"Boston, MA",2010,Hispanic,76.9
+"Boston, MA",2010,White,155.7
+"Boston, MA",2011,Asian/PI,51.3
+"Boston, MA",2011,Black,141.8
+"Boston, MA",2011,Hispanic,97.8
+"Boston, MA",2011,White,144.5
+"Boston, MA",2012,Asian/PI,45
+"Boston, MA",2012,Black,156.2
+"Boston, MA",2012,Hispanic,80.9
+"Boston, MA",2012,White,145.2
+"Boston, MA",2013,Asian/PI,54.1
+"Boston, MA",2013,Black,126.5
+"Boston, MA",2013,Hispanic,88.8
+"Boston, MA",2013,White,160.8
+"Boston, MA",2014,Asian/PI,67.2
+"Boston, MA",2014,Black,132
+"Boston, MA",2014,Hispanic,52.2
+"Boston, MA",2014,White,145.6
+"Boston, MA",2015,Asian/PI,72.7
+"Boston, MA",2015,Black,129.5
+"Boston, MA",2015,Hispanic,111.3
+"Boston, MA",2015,White,153.5
+"Chicago, Il",2010,Asian/PI,92.4
+"Chicago, Il",2010,Black,275.8
+"Chicago, Il",2010,Hispanic,116.6
+"Chicago, Il",2010,White,213.2
+"Chicago, Il",2011,Asian/PI,119.6
+"Chicago, Il",2011,Black,259.3
+"Chicago, Il",2011,Hispanic,124
+"Chicago, Il",2011,White,211.7
+"Chicago, Il",2012,Asian/PI,114.2
+"Chicago, Il",2012,Black,270
+"Chicago, Il",2012,Hispanic,124.3
+"Chicago, Il",2012,White,202.6
+"Chicago, Il",2013,Asian/PI,102.6
+"Chicago, Il",2013,Black,237
+"Chicago, Il",2013,Hispanic,129.9
+"Chicago, Il",2013,White,199.2
+"Cleveland, OH",2010,Black,315.6
+"Cleveland, OH",2010,White,429.9
+"Cleveland, OH",2011,Black,339.7
+"Cleveland, OH",2011,White,464.4
+"Cleveland, OH",2012,Black,325.5
+"Cleveland, OH",2012,White,432.6
+"Columbus, OH",2010,Asian/PI,
+"Columbus, OH",2010,Black,225.9
+"Columbus, OH",2010,Hispanic,
+"Columbus, OH",2010,White,200.8
+"Columbus, OH",2011,Asian/PI,
+"Columbus, OH",2011,Black,201.5
+"Columbus, OH",2011,Hispanic,
+"Columbus, OH",2011,White,204.1
+"Columbus, OH",2012,Asian/PI,
+"Columbus, OH",2012,Black,207.1
+"Columbus, OH",2012,Hispanic,
+"Columbus, OH",2012,White,201.7
+"Columbus, OH",2013,Asian/PI,
+"Columbus, OH",2013,Black,206.9
+"Columbus, OH",2013,Hispanic,
+"Columbus, OH",2013,White,210.2
+"Columbus, OH",2014,Asian/PI,
+"Columbus, OH",2014,Black,220
+"Columbus, OH",2014,Hispanic,
+"Columbus, OH",2014,White,210.6
+"Columbus, OH",2015,Asian/PI,
+"Columbus, OH",2015,Black,243.8
+"Columbus, OH",2015,Hispanic,
+"Columbus, OH",2015,White,234
+"Columbus, OH",2016,Asian/PI,
+"Columbus, OH",2016,Black,249.5
+"Columbus, OH",2016,Hispanic,
+"Columbus, OH",2016,White,213.7
+"Denver, CO",2010,Asian/PI,90
+"Denver, CO",2010,Black,199.8
+"Denver, CO",2010,Hispanic,149
+"Denver, CO",2010,White,136.4
+"Denver, CO",2011,Asian/PI,118.2
+"Denver, CO",2011,Black,235.6
+"Denver, CO",2011,Hispanic,113
+"Denver, CO",2011,White,149.7
+"Denver, CO",2012,Asian/PI,145.1
+"Denver, CO",2012,Black,205
+"Denver, CO",2012,Hispanic,150
+"Denver, CO",2012,White,153.4
+"Denver, CO",2013,Asian/PI,79.2
+"Denver, CO",2013,Black,221.8
+"Denver, CO",2013,Hispanic,150.6
+"Denver, CO",2013,White,154.9
+"Denver, CO",2014,Asian/PI,112.6
+"Denver, CO",2014,Black,237.3
+"Denver, CO",2014,Hispanic,147.3
+"Denver, CO",2014,White,143.7
+"Denver, CO",2015,Asian/PI,80.3
+"Denver, CO",2015,Black,230.4
+"Denver, CO",2015,Hispanic,159.5
+"Denver, CO",2015,White,157.9
+"Denver, CO",2016,Asian/PI,111.2
+"Denver, CO",2016,Black,237.3
+"Denver, CO",2016,Hispanic,144.7
+"Denver, CO",2016,White,149.8
+"Detroit, MI",2011,Asian/PI,
+"Detroit, MI",2011,Black,305
+"Detroit, MI",2011,White,268.4
+"Detroit, MI",2012,Black,348
+"Detroit, MI",2012,White,265.6
+"Detroit, MI",2013,Black,320.8
+"Detroit, MI",2013,White,266.7
+"Detroit, MI",2014,Asian/PI,
+"Detroit, MI",2014,Black,315.4
+"Detroit, MI",2014,White,253
+"Detroit, MI",2015,Asian/PI,
+"Detroit, MI",2015,Black,302.4
+"Detroit, MI",2015,Hispanic,
+"Detroit, MI",2015,White,251.4
+"Fort Worth (Tarrant County), TX",2010,Black,219.4
+"Fort Worth (Tarrant County), TX",2010,Hispanic,134.8
+"Fort Worth (Tarrant County), TX",2010,White,186.1
+"Fort Worth (Tarrant County), TX",2011,Black,226.3
+"Fort Worth (Tarrant County), TX",2011,Hispanic,118.7
+"Fort Worth (Tarrant County), TX",2011,White,178.3
+"Fort Worth (Tarrant County), TX",2012,Black,240.3
+"Fort Worth (Tarrant County), TX",2012,Hispanic,130.7
+"Fort Worth (Tarrant County), TX",2012,White,179.3
+"Fort Worth (Tarrant County), TX",2013,Asian/PI,74.2
+"Fort Worth (Tarrant County), TX",2013,Black,169.3
+"Fort Worth (Tarrant County), TX",2013,Hispanic,96.6
+"Fort Worth (Tarrant County), TX",2013,White,172.4
+"Fort Worth (Tarrant County), TX",2014,Asian/PI,71.9
+"Fort Worth (Tarrant County), TX",2014,Black,194.5
+"Fort Worth (Tarrant County), TX",2014,Hispanic,96.6
+"Fort Worth (Tarrant County), TX",2014,White,166.6
+"Fort Worth (Tarrant County), TX",2015,Asian/PI,61.3
+"Fort Worth (Tarrant County), TX",2015,Black,198.9
+"Fort Worth (Tarrant County), TX",2015,Hispanic,103.2
+"Fort Worth (Tarrant County), TX",2015,White,166
+"Houston, TX",2010,Black,229.5
+"Houston, TX",2010,Hispanic,131.8
+"Houston, TX",2010,White,176.7
+"Houston, TX",2011,Black,223.1
+"Houston, TX",2011,Hispanic,104.8
+"Houston, TX",2011,White,166
+"Houston, TX",2012,Black,229.1
+"Houston, TX",2012,Hispanic,117.5
+"Houston, TX",2012,White,181.3
+"Indianapolis (Marion County), IN",2010,Asian/PI,
+"Indianapolis (Marion County), IN",2010,Black,200
+"Indianapolis (Marion County), IN",2010,Hispanic,
+"Indianapolis (Marion County), IN",2010,White,182.4
+"Indianapolis (Marion County), IN",2011,Asian/PI,
+"Indianapolis (Marion County), IN",2011,Black,205.7
+"Indianapolis (Marion County), IN",2011,Hispanic,
+"Indianapolis (Marion County), IN",2011,White,159.6
+"Indianapolis (Marion County), IN",2012,Asian/PI,
+"Indianapolis (Marion County), IN",2012,Black,206
+"Indianapolis (Marion County), IN",2012,White,169.7
+"Indianapolis (Marion County), IN",2013,Asian/PI,
+"Indianapolis (Marion County), IN",2013,Black,202.6
+"Indianapolis (Marion County), IN",2013,Hispanic,
+"Indianapolis (Marion County), IN",2013,White,165.7
+"Indianapolis (Marion County), IN",2014,Asian/PI,
+"Indianapolis (Marion County), IN",2014,Black,211.1
+"Indianapolis (Marion County), IN",2014,Hispanic,
+"Indianapolis (Marion County), IN",2014,White,160.3
+"Indianapolis (Marion County), IN",2015,Asian/PI,
+"Indianapolis (Marion County), IN",2015,Black,208.5
+"Indianapolis (Marion County), IN",2015,Hispanic,
+"Indianapolis (Marion County), IN",2015,White,156.5
+"Indianapolis (Marion County), IN",2016,Asian/PI,
+"Indianapolis (Marion County), IN",2016,Black,188.8
+"Indianapolis (Marion County), IN",2016,Hispanic,
+"Indianapolis (Marion County), IN",2016,White,152.8
+"Kansas City, MO",2010,Black,195.1
+"Kansas City, MO",2010,White,160.7
+"Kansas City, MO",2011,Black,181.5
+"Kansas City, MO",2011,White,144.4
+"Kansas City, MO",2012,Black,198.9
+"Kansas City, MO",2012,White,156.2
+"Kansas City, MO",2013,Black,208.5
+"Kansas City, MO",2013,White,143.7
+"Kansas City, MO",2014,Black,227
+"Kansas City, MO",2014,White,159
+"Kansas City, MO",2015,Black,252.2
+"Kansas City, MO",2015,White,162.7
+"Kansas City, MO",2016,Black,248.5
+"Kansas City, MO",2016,White,161.7
+"Las Vegas (Clark County), NV",2010,Asian/PI,108.2
+"Las Vegas (Clark County), NV",2010,Black,245.6
+"Las Vegas (Clark County), NV",2010,Hispanic,119.3
+"Las Vegas (Clark County), NV",2010,White,208.3
+"Las Vegas (Clark County), NV",2011,Asian/PI,126
+"Las Vegas (Clark County), NV",2011,Black,262.9
+"Las Vegas (Clark County), NV",2011,Hispanic,115.6
+"Las Vegas (Clark County), NV",2011,White,216.6
+"Las Vegas (Clark County), NV",2012,Asian/PI,132.5
+"Las Vegas (Clark County), NV",2012,Black,285.1
+"Las Vegas (Clark County), NV",2012,Hispanic,137.1
+"Las Vegas (Clark County), NV",2012,White,214.5
+"Las Vegas (Clark County), NV",2013,Asian/PI,152.5
+"Las Vegas (Clark County), NV",2013,Black,309.4
+"Las Vegas (Clark County), NV",2013,Hispanic,159.6
+"Las Vegas (Clark County), NV",2013,White,225.3
+"Las Vegas (Clark County), NV",2014,Asian/PI,197.8
+"Las Vegas (Clark County), NV",2014,Black,287.2
+"Las Vegas (Clark County), NV",2014,Hispanic,159.8
+"Las Vegas (Clark County), NV",2014,White,238.7
+"Las Vegas (Clark County), NV",2015,Asian/PI,169.2
+"Las Vegas (Clark County), NV",2015,Black,295.6
+"Las Vegas (Clark County), NV",2015,Hispanic,172.1
+"Las Vegas (Clark County), NV",2015,White,208.7
+"Long Beach, CA",2011,Asian/PI,130.2
+"Long Beach, CA",2011,Black,236.6
+"Long Beach, CA",2011,Hispanic,132.8
+"Long Beach, CA",2011,White,199.7
+"Long Beach, CA",2012,Asian/PI,151.4
+"Long Beach, CA",2012,Black,227.7
+"Long Beach, CA",2012,Hispanic,139.7
+"Long Beach, CA",2012,White,190.5
+"Long Beach, CA",2013,Asian/PI,117
+"Long Beach, CA",2013,Black,248.1
+"Long Beach, CA",2013,Hispanic,153.1
+"Long Beach, CA",2013,White,177
+"Long Beach, CA",2014,Asian/PI,125.6
+"Long Beach, CA",2014,Black,281.6
+"Long Beach, CA",2014,Hispanic,139
+"Long Beach, CA",2014,White,179.6
+"Los Angeles, CA",2010,Asian/PI,87
+"Los Angeles, CA",2010,Black,291.3
+"Los Angeles, CA",2010,Hispanic,102.4
+"Los Angeles, CA",2010,White,69.4
+"Los Angeles, CA",2011,Asian/PI,77.7
+"Los Angeles, CA",2011,Black,291
+"Los Angeles, CA",2011,Hispanic,97.3
+"Los Angeles, CA",2011,White,66.7
+"Los Angeles, CA",2012,Asian/PI,66.8
+"Los Angeles, CA",2012,Black,266.7
+"Los Angeles, CA",2012,Hispanic,85.3
+"Los Angeles, CA",2012,White,63.5
+"Miami (Miami-Dade County), FL",2010,Black,208.7
+"Miami (Miami-Dade County), FL",2010,Hispanic,157.6
+"Miami (Miami-Dade County), FL",2010,White,185.4
+"Miami (Miami-Dade County), FL",2011,Black,190.7
+"Miami (Miami-Dade County), FL",2011,Hispanic,145.1
+"Miami (Miami-Dade County), FL",2011,White,164.8
+"Miami (Miami-Dade County), FL",2012,Black,205.8
+"Miami (Miami-Dade County), FL",2012,Hispanic,147
+"Miami (Miami-Dade County), FL",2012,White,175.5
+"Miami (Miami-Dade County), FL",2013,Black,190.8
+"Miami (Miami-Dade County), FL",2013,Hispanic,148.2
+"Miami (Miami-Dade County), FL",2013,White,175.7
+"Miami (Miami-Dade County), FL",2014,Black,190.1
+"Miami (Miami-Dade County), FL",2014,Hispanic,151.5
+"Miami (Miami-Dade County), FL",2014,White,151.6
+"Minneapolis, MN",2010,Asian/PI,73.1
+"Minneapolis, MN",2010,Black,97.1
+"Minneapolis, MN",2010,Hispanic,33.5
+"Minneapolis, MN",2010,White,110.6
+"Minneapolis, MN",2011,Asian/PI,40.3
+"Minneapolis, MN",2011,Black,154.3
+"Minneapolis, MN",2011,Hispanic,50.8
+"Minneapolis, MN",2011,White,110.5
+"Minneapolis, MN",2012,Asian/PI,130.6
+"Minneapolis, MN",2012,Black,133.4
+"Minneapolis, MN",2012,Hispanic,39.9
+"Minneapolis, MN",2012,White,111
+"Minneapolis, MN",2013,Asian/PI,69.2
+"Minneapolis, MN",2013,Black,149.9
+"Minneapolis, MN",2013,Hispanic,49.2
+"Minneapolis, MN",2013,White,139
+"Minneapolis, MN",2014,Asian/PI,111.4
+"Minneapolis, MN",2014,Black,133.8
+"Minneapolis, MN",2014,Hispanic,47.7
+"Minneapolis, MN",2014,White,103.5
+"Minneapolis, MN",2015,Asian/PI,115.9
+"Minneapolis, MN",2015,Black,155.8
+"Minneapolis, MN",2015,Hispanic,106.9
+"Minneapolis, MN",2015,White,118.8
+"Minneapolis, MN",2016,Asian/PI,81.2
+"Minneapolis, MN",2016,Black,175
+"Minneapolis, MN",2016,Hispanic,97.2
+"Minneapolis, MN",2016,White,110.2
+"New York City, NY",2011,Asian/PI,100.9
+"New York City, NY",2011,Black,220.3
+"New York City, NY",2011,Hispanic,152.9
+"New York City, NY",2011,White,215.6
+"New York City, NY",2012,Asian/PI,98.2
+"New York City, NY",2012,Black,221.7
+"New York City, NY",2012,Hispanic,145.1
+"New York City, NY",2012,White,206
+"New York City, NY",2013,Asian/PI,100.9
+"New York City, NY",2013,Black,216.7
+"New York City, NY",2013,Hispanic,142.2
+"New York City, NY",2013,White,198.3
+"New York City, NY",2014,Asian/PI,98.4
+"New York City, NY",2014,Black,206.7
+"New York City, NY",2014,Hispanic,133
+"New York City, NY",2014,White,196.3
+"New York City, NY",2015,Asian/PI,101
+"New York City, NY",2015,Black,213.8
+"New York City, NY",2015,Hispanic,142.1
+"New York City, NY",2015,White,197.5
+"Oakland (Alameda County), CA",2010,Asian/PI,71.3
+"Oakland (Alameda County), CA",2010,Black,223.5
+"Oakland (Alameda County), CA",2010,Hispanic,108.5
+"Oakland (Alameda County), CA",2010,White,133.9
+"Oakland (Alameda County), CA",2011,Asian/PI,74.7
+"Oakland (Alameda County), CA",2011,Black,215.5
+"Oakland (Alameda County), CA",2011,Hispanic,106.3
+"Oakland (Alameda County), CA",2011,White,130.6
+"Oakland (Alameda County), CA",2012,Asian/PI,79.5
+"Oakland (Alameda County), CA",2012,Black,211.7
+"Oakland (Alameda County), CA",2012,Hispanic,107.5
+"Oakland (Alameda County), CA",2012,White,134.7
+"Oakland (Alameda County), CA",2013,Asian/PI,72.2
+"Oakland (Alameda County), CA",2013,Black,204.3
+"Oakland (Alameda County), CA",2013,Hispanic,129.8
+"Oakland (Alameda County), CA",2013,White,123.2
+"Oakland (Alameda County), CA",2014,Asian/PI,72.5
+"Oakland (Alameda County), CA",2014,Black,209.2
+"Oakland (Alameda County), CA",2014,Hispanic,98.4
+"Oakland (Alameda County), CA",2014,White,125.7
+"Oakland (Alameda County), CA",2015,Asian/PI,73.1
+"Oakland (Alameda County), CA",2015,Black,197.3
+"Oakland (Alameda County), CA",2015,Hispanic,98.4
+"Oakland (Alameda County), CA",2015,White,124.8
+"Oakland (Alameda County), CA",2016,Asian/PI,72
+"Oakland (Alameda County), CA",2016,Black,222.8
+"Oakland (Alameda County), CA",2016,Hispanic,128.4
+"Oakland (Alameda County), CA",2016,White,115.1
+"Philadelphia, PA",2010,Asian/PI,106.6
+"Philadelphia, PA",2010,Black,264.5
+"Philadelphia, PA",2010,Hispanic,151.7
+"Philadelphia, PA",2011,Asian/PI,67.9
+"Philadelphia, PA",2011,Black,237.8
+"Philadelphia, PA",2011,Hispanic,172.3
+"Philadelphia, PA",2012,Asian/PI,67.9
+"Philadelphia, PA",2012,Black,229.4
+"Philadelphia, PA",2012,Hispanic,147.9
+"Philadelphia, PA",2012,White,177.7
+"Philadelphia, PA",2013,Asian/PI,58.9
+"Philadelphia, PA",2013,Black,235.4
+"Philadelphia, PA",2013,Hispanic,151.4
+"Philadelphia, PA",2013,White,181.7
+"Philadelphia, PA",2014,Asian/PI,86
+"Philadelphia, PA",2014,Black,231.8
+"Philadelphia, PA",2014,Hispanic,163.2
+"Philadelphia, PA",2014,White,186.7
+"Philadelphia, PA",2015,Asian/PI,78.9
+"Philadelphia, PA",2015,Black,219.1
+"Philadelphia, PA",2015,Hispanic,136.4
+"Philadelphia, PA",2015,White,195.6
+"Philadelphia, PA",2016,Asian/PI,76.9
+"Philadelphia, PA",2016,Black,254
+"Philadelphia, PA",2016,Hispanic,144.6
+"Philadelphia, PA",2016,White,183.3
+"Phoenix, AZ",2010,Asian/PI,39
+"Phoenix, AZ",2010,Black,98.1
+"Phoenix, AZ",2010,White,170.5
+"Phoenix, AZ",2011,Asian/PI,44.6
+"Phoenix, AZ",2011,Black,109.1
+"Phoenix, AZ",2011,Hispanic,28
+"Phoenix, AZ",2011,White,153.2
+"Phoenix, AZ",2012,Asian/PI,42.9
+"Phoenix, AZ",2012,Black,131.6
+"Phoenix, AZ",2012,Hispanic,31.8
+"Phoenix, AZ",2012,White,150.9
+"Phoenix, AZ",2013,Asian/PI,47.3
+"Phoenix, AZ",2013,Black,110.8
+"Phoenix, AZ",2013,Hispanic,29.7
+"Phoenix, AZ",2013,White,151.8
+"Portland (Multnomah County), OR",2011,Asian/PI,63.1
+"Portland (Multnomah County), OR",2011,Black,159.2
+"Portland (Multnomah County), OR",2011,White,146.9
+"Portland (Multnomah County), OR",2012,Asian/PI,82.9
+"Portland (Multnomah County), OR",2012,Black,169.2
+"Portland (Multnomah County), OR",2012,Hispanic,95.2
+"Portland (Multnomah County), OR",2012,White,145.9
+"Portland (Multnomah County), OR",2013,Asian/PI,72
+"Portland (Multnomah County), OR",2013,Black,165.2
+"Portland (Multnomah County), OR",2013,White,142
+"Portland (Multnomah County), OR",2014,Asian/PI,64.9
+"Portland (Multnomah County), OR",2014,Black,155.7
+"Portland (Multnomah County), OR",2014,Hispanic,111.1
+"Portland (Multnomah County), OR",2014,White,140.7
+"Portland (Multnomah County), OR",2015,Asian/PI,88.5
+"Portland (Multnomah County), OR",2015,Black,140.3
+"Portland (Multnomah County), OR",2015,Hispanic,
+"Portland (Multnomah County), OR",2015,White,153.5
+"Portland (Multnomah County), OR",2016,Asian/PI,105.3
+"Portland (Multnomah County), OR",2016,Black,188.4
+"Portland (Multnomah County), OR",2016,Hispanic,142.6
+"Portland (Multnomah County), OR",2016,White,165.6
+"San Antonio, TX",2010,Asian/PI,154.9
+"San Antonio, TX",2010,Black,378.6
+"San Antonio, TX",2010,Hispanic,327.3
+"San Antonio, TX",2010,White,373.7
+"San Antonio, TX",2011,Black,174
+"San Antonio, TX",2011,Hispanic,145.5
+"San Antonio, TX",2011,White,150.1
+"San Antonio, TX",2012,Black,152.4
+"San Antonio, TX",2012,Hispanic,143.3
+"San Antonio, TX",2012,White,144.9
+"San Antonio, TX",2013,Black,196.4
+"San Antonio, TX",2013,Hispanic,155.9
+"San Antonio, TX",2013,White,161.6
+"San Antonio, TX",2014,Asian/PI,194.7
+"San Antonio, TX",2014,Black,430.1
+"San Antonio, TX",2014,Hispanic,351.5
+"San Antonio, TX",2014,White,389
+"San Antonio, TX",2015,Asian/PI,174.9
+"San Antonio, TX",2015,Black,425.4
+"San Antonio, TX",2015,Hispanic,347.7
+"San Antonio, TX",2015,White,391.4
+"San Diego County, CA",2010,Asian/PI,105.7
+"San Diego County, CA",2010,Black,213.7
+"San Diego County, CA",2010,Hispanic,119.9
+"San Diego County, CA",2010,White,154.5
+"San Diego County, CA",2011,Asian/PI,97.1
+"San Diego County, CA",2011,Black,201
+"San Diego County, CA",2011,Hispanic,120.1
+"San Diego County, CA",2011,White,159
+"San Diego County, CA",2012,Asian/PI,102
+"San Diego County, CA",2012,Black,195.6
+"San Diego County, CA",2012,Hispanic,115
+"San Diego County, CA",2012,White,149
+"San Diego County, CA",2013,Asian/PI,94
+"San Diego County, CA",2013,Black,226.7
+"San Diego County, CA",2013,Hispanic,120.2
+"San Diego County, CA",2013,White,150.5
+"San Diego County, CA",2014,Asian/PI,86.9
+"San Diego County, CA",2014,Black,200.6
+"San Diego County, CA",2014,Hispanic,107.2
+"San Diego County, CA",2014,White,139.5
+"San Diego County, CA",2015,Asian/PI,83.8
+"San Diego County, CA",2015,Black,177.5
+"San Diego County, CA",2015,Hispanic,99.2
+"San Diego County, CA",2015,White,145
+"San Diego County, CA",2016,Asian/PI,82.5
+"San Diego County, CA",2016,Black,195.6
+"San Diego County, CA",2016,Hispanic,101.3
+"San Diego County, CA",2016,White,143.9
+"San Francisco, CA",2010,Asian/PI,123.3
+"San Francisco, CA",2010,Black,288.9
+"San Francisco, CA",2010,Hispanic,126
+"San Francisco, CA",2010,White,155.7
+"San Francisco, CA",2013,Asian/PI,115.4
+"San Francisco, CA",2013,Black,207
+"San Francisco, CA",2013,Hispanic,131.9
+"San Francisco, CA",2013,White,134.9
+"San Jose, CA",2011,Asian/PI,81.7
+"San Jose, CA",2011,Black,143
+"San Jose, CA",2011,Hispanic,105.4
+"San Jose, CA",2011,White,145.4
+"San Jose, CA",2012,Asian/PI,95.8
+"San Jose, CA",2012,Black,163.6
+"San Jose, CA",2012,Hispanic,140.9
+"San Jose, CA",2012,White,159
+"San Jose, CA",2013,Asian/PI,90.5
+"San Jose, CA",2013,Black,152.4
+"San Jose, CA",2013,Hispanic,122.6
+"San Jose, CA",2013,White,154.4
+"Seattle, WA",2010,Asian/PI,86.3
+"Seattle, WA",2010,Black,199.8
+"Seattle, WA",2010,Hispanic,150.9
+"Seattle, WA",2010,White,127.7
+"Seattle, WA",2011,Asian/PI,96.8
+"Seattle, WA",2011,Black,182.8
+"Seattle, WA",2011,Hispanic,94.5
+"Seattle, WA",2011,White,133
+"Seattle, WA",2012,Asian/PI,183.4
+"Seattle, WA",2012,Black,159.6
+"Seattle, WA",2012,Hispanic,72.4
+"Seattle, WA",2012,White,121.5
+"Seattle, WA",2013,Asian/PI,97.1
+"Seattle, WA",2013,Black,134.8
+"Seattle, WA",2013,Hispanic,55.7
+"Seattle, WA",2013,White,128.6
+"Seattle, WA",2014,Asian/PI,72.2
+"Seattle, WA",2014,Black,167.9
+"Seattle, WA",2014,Hispanic,110.5
+"Seattle, WA",2014,White,121.5
+"Seattle, WA",2015,Asian/PI,87.1
+"Seattle, WA",2015,Black,116
+"Seattle, WA",2015,Hispanic,51
+"Seattle, WA",2015,White,111.9
+"U.S. Total, U.S. Total",2012,Asian/PI,92.2
+"U.S. Total, U.S. Total",2012,Black,216.3
+"U.S. Total, U.S. Total",2012,Hispanic,122
+"U.S. Total, U.S. Total",2012,White,172.3
+"U.S. Total, U.S. Total",2013,Asian/PI,92.8
+"U.S. Total, U.S. Total",2013,Black,215.5
+"U.S. Total, U.S. Total",2013,Hispanic,121.2
+"U.S. Total, U.S. Total",2013,White,171.8
+"U.S. Total, U.S. Total",2014,Asian/PI,86.1
+"U.S. Total, U.S. Total",2014,Black,210.8
+"U.S. Total, U.S. Total",2014,Hispanic,116
+"U.S. Total, U.S. Total",2014,White,169.9
+"Washington, DC",2010,Black,280.9
+"Washington, DC",2010,Hispanic,129.4
+"Washington, DC",2010,White,137.1
+"Washington, DC",2011,Black,248.5
+"Washington, DC",2011,Hispanic,116.9
+"Washington, DC",2011,White,127.8
+"Washington, DC",2012,Black,288.5
+"Washington, DC",2012,Hispanic,159.4
+"Washington, DC",2012,White,118.2
