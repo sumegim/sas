@@ -1,4 +1,5 @@
 libname sasdata "/folders/myfolders/assignment/";
+%include "/folders/myfolders/assignment/macro_runstest.sas";
 
 data bchc;
 	set sasdata.bchc;
