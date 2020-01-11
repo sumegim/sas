@@ -37,8 +37,8 @@ run;
 quit;
 
 proc plm restore=interact plots = all;
-slice Race_Ethnicity * Place / sliceby=Place adjust=tukey;
-effectplot interaction(sliceby=Place) / clm;
+slice Race_Ethnicity * Place / sliceby=Race_Ethnicity adjust=tukey;
+effectplot interaction(sliceby=Race_Ethnicity) / clm;
 run;
 
 
