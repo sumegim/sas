@@ -31,10 +31,16 @@ RUN;
 proc glm data=bchc plots=diagnostics;
 class Place Race_Ethnicity;
 model Mortality=Race_Ethnicity Place Race_Ethnicity * Place;
-lsmeans Race_Ethnicity * Place / diff slice=Race_Ethnicity;
+lsmeans Race_Ethnicity * Place / diff slice=Place;
 store out=interact;
 run;
 quit;
+
+proc plm restore=interact plots = all;
+slice Race_Ethnicity * Place / sliceby=Place adjust=tukey;
+effectplot interaction(sliceby=Place) / clm;
+run;
+
 
 PROC UNIVARIATE DATA=PRED NORMAL;
     VAR RESID;
