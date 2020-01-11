@@ -17,13 +17,36 @@ PROC MEANS DATA=bchc NOPRINT;
 RUN;
 
 /* Annova 2 ways model, Race - Fixed effect, Place - Random effect */
-ods output SolutionR=EBLUP;
-PROC MIXED DATA=MEANS METHOD=TYPE3;
-	CLASS Place Race_Ethnicity;
-	MODEL Mortality=Race_Ethnicity/SOLUTION outp=PRED;
-	RANDOM PLACE/SOLUTION;
-	LSMEANS Race_Ethnicity;
+/* ods output SolutionR=EBLUP; */
+/* PROC MIXED DATA=MEANS METHOD=TYPE3; */
+/* 	CLASS Place Race_Ethnicity; */
+/* 	MODEL Mortality=Race_Ethnicity/SOLUTION outp=PRED; */
+/* 	RANDOM PLACE/SOLUTION; */
+/* 	LSMEANS Race_Ethnicity; */
+/* RUN; */
+
+
+
+
+proc glm data=bchc plots=diagnostics;
+class Place Race_Ethnicity;
+model Mortality=Race_Ethnicity Place Race_Ethnicity * Place;
+lsmeans Race_Ethnicity * Place / diff slice=Race_Ethnicity;
+store out=interact;
+run;
+quit;
+
+PROC UNIVARIATE DATA=PRED NORMAL;
+    VAR RESID;
+    PROBPLOT RESID /NORMAL(MU=est SIGMA=est);
 RUN;
+
+proc glm data=PRED;
+    class Race_Ethnicity;
+    model Resid = Race_Ethnicity;
+    means Race_Ethnicity / hovtest=BARTLETT;
+run;
+
 
 /* Testing randomness of EBLUPS */
 %RUNSCUC(data=EBLUP,var=Estimate,alpha=0.05);
