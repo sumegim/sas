@@ -27,10 +27,19 @@ RUN;
 
 
 
+proc means data=bchc mean var std nway;
+class Place Race_Ethnicity;
+var Mortality;
+run;
+
+proc sgplot data=bchc;
+vline Place / group=Race_Ethnicity stat=mean response=Mortality markers;
+run;
 
 proc glm data=bchc plots=diagnostics;
 class Place Race_Ethnicity;
 model Mortality=Race_Ethnicity Place Race_Ethnicity * Place;
+random Place;
 lsmeans Race_Ethnicity * Place / diff slice=Place;
 store out=interact;
 run;
