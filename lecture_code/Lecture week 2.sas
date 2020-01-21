@@ -180,11 +180,11 @@ proc freq data=LTT order=data;
    weight COUNT;
  run;
 
-/* data DATA.RCT; */
-/*  set SAS.Cellsaver; */
-/*  where TIME=1; */
-/*  keep CENTER TRT; */
-/* run; */
+data RCT;
+ set DATA.RCT;
+ where TIME=1;
+ keep CENTER TRT;
+run;
 
 proc freq data=DATA.RCT;
 	tables CENTER*TRT /chisq;
