@@ -1,7 +1,9 @@
+LIBNAME DATA "/folders/myfolders/Datasets";
+LIBNAME SAS "/folders/myfolders";
 
 *W2-1;
 DATA WEEK2;
- SET IVF;
+ SET DATA.IVF;
  WHERE TRT=0 AND PER=4;
  IMPSHIFT=IMP-10;
  label IMPSHIFT = "Neurological score - 10";
@@ -178,13 +180,13 @@ proc freq data=LTT order=data;
    weight COUNT;
  run;
 
-data RCT;
- set SAS.Cellsaver;
- where TIME=1;
- keep CENTER TRT;
-run;
+/* data DATA.RCT; */
+/*  set SAS.Cellsaver; */
+/*  where TIME=1; */
+/*  keep CENTER TRT; */
+/* run; */
 
-proc freq data=RCT;
+proc freq data=DATA.RCT;
 	tables CENTER*TRT /chisq;
 run;
 

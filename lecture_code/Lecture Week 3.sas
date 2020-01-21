@@ -1,6 +1,7 @@
+LIBNAME DATA "/folders/myfolders/Datasets";
 
 DATA IVF;
- SET SAS.IVF;
+ SET DATA.IVF;
   KEEP PER IMP ID;
 RUN;
 
