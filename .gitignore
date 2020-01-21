@@ -4,6 +4,9 @@
 # But not these files...
 !.gitignore
 !assignment
+!Datasets
+!homework
+!lecture_code
 !*.sas
 !*.sas7bdat
 !*.csv
