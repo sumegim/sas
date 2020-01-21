@@ -5,6 +5,16 @@ data bchc;
 	set sasdata.bchc;
 run;
 
+data bchc_no_outliers;
+	set bchc;
+	where Place not like "San Antonio, TX"
+	or Race_Ethnicity like "Asian/PI";
+run;
+proc sgplot data=bchc_no_outliers;
+vline Year / group=Place stat=mean response=Mortality markers;
+run;
+
+
 PROC SORT DATA=bchc;
 	BY Place Race_Ethnicity Year;
 RUN;
@@ -16,17 +26,6 @@ PROC MEANS DATA=bchc NOPRINT;
 	OUTPUT OUT=MEANS MEAN=Mortality;
 RUN;
 
-/* Annova 2 ways model, Race - Fixed effect, Place - Random effect */
-/* ods output SolutionR=EBLUP; */
-/* PROC MIXED DATA=MEANS METHOD=TYPE3; */
-/* 	CLASS Place Race_Ethnicity; */
-/* 	MODEL Mortality=Race_Ethnicity/SOLUTION outp=PRED; */
-/* 	RANDOM PLACE/SOLUTION; */
-/* 	LSMEANS Race_Ethnicity; */
-/* RUN; */
-
-
-
 proc means data=bchc mean var std nway;
 class Place Race_Ethnicity;
 var Mortality;
@@ -36,19 +35,28 @@ proc sgplot data=bchc;
 vline Place / group=Race_Ethnicity stat=mean response=Mortality markers;
 run;
 
-proc glm data=bchc plots=diagnostics;
-class Place Race_Ethnicity;
-model Mortality=Race_Ethnicity Place Race_Ethnicity * Place;
-random Place;
-lsmeans Race_Ethnicity * Place / diff slice=Place;
-store out=interact;
-run;
-quit;
+/* proc glm data=bchc plots=diagnostics; */
+/* class Place Race_Ethnicity; */
+/* model Mortality=Race_Ethnicity Place Race_Ethnicity * Place; */
+/* random Place; */
+/* lsmeans Race_Ethnicity * Place / diff slice=Place; */
+/* store out=interact; */
+/* run; */
+/* quit; */
+/*  */
+/* proc plm restore=interact plots = all; */
+/* slice Race_Ethnicity * Place / sliceby=Place adjust=tukey; */
+/* effectplot interaction(sliceby=Place) / clm; */
+/* run; */
 
-proc plm restore=interact plots = all;
-slice Race_Ethnicity * Place / sliceby=Race_Ethnicity adjust=tukey;
-effectplot interaction(sliceby=Race_Ethnicity) / clm;
-run;
+/* Annova 2 ways model, Race - Fixed effect, Place - Random effect */
+ods output SolutionR=EBLUP;
+PROC MIXED DATA=MEANS METHOD=TYPE3;
+	CLASS Place Race_Ethnicity Year;
+	MODEL Mortality=Race_Ethnicity/SOLUTION outp=PRED;
+	RANDOM PLACE Year /SOLUTION;
+	LSMEANS Race_Ethnicity;
+RUN;
 
 
 PROC UNIVARIATE DATA=PRED NORMAL;
